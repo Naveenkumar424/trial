@@ -1,6 +1,8 @@
 body{
-    background-color: salmon;
+    background-color: white;
     margin: 0%;
+    font-variant: small-caps;
+    font-size: larger;
 }
 
 #container{
@@ -39,4 +41,11 @@ footer{
 
 #profile{
     height:20vh;width:100vw;
+}
+.inside:hover{
+    animation:div 2s ease infinite alternate-reverse;
+}
+@keyframes div {
+    from{height: 10vh;}
+    to{height:20vh;}
 }
