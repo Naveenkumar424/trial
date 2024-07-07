@@ -1,0 +1,42 @@
+body{
+    background-color: salmon;
+    margin: 0%;
+}
+
+#container{
+    height: 82.5vh;width:100vw;
+    border:2px solid black;
+}
+header{
+    height:10vh;width: 100vw ;
+    font-size:28px;
+    font-variant: small-caps;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 108, 191);
+    color:white;
+}
+footer{
+    height:10vh;width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-variant: small-caps;
+    background-color: rgb(31, 108, 191);
+    color: white;
+}
+
+.inside{
+    height:10vh;width:100vw;
+    border:2px solid black;
+    display:flex;
+}
+#anu{
+    display: flex;
+}
+
+#profile{
+    height:20vh;width:100vw;
+}
