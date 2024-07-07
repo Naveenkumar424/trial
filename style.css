@@ -49,8 +49,10 @@ footer{
 }
 .inside:hover{
     animation:div 2s ease infinite alternate;
+    background-color: salmon;
 }
 @keyframes div {
     from{height: 10vh;}
     to{height:20vh;}
 }
+
