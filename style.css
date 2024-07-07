@@ -34,16 +34,21 @@ footer{
     height:10vh;width:100vw;
     border:2px solid black;
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
 #anu{
-    display: flex;
+    display: none;
+}
+#anuDiv:hover{
+    cursor:pointer;
 }
 
 #profile{
     height:20vh;width:100vw;
 }
 .inside:hover{
-    animation:div 2s ease infinite alternate-reverse;
+    animation:div 2s ease infinite alternate;
 }
 @keyframes div {
     from{height: 10vh;}
