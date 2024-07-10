@@ -9,3 +9,6 @@ function noDisplay(){
 }
 
 
+function profile(){
+    window.location.href="./profile.html"
+}
