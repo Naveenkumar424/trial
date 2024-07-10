@@ -10,8 +10,8 @@
             margin: 0%;
         }
         header,footer{
-            height:10vh;width: 100vw ;
-            font-size:28px;
+            height:10vh;width: 99.5vw ;
+            font-size:large;
             font-variant: small-caps;
             display: flex;
             align-items: center;
@@ -20,30 +20,25 @@
             color:white;
         }
         #content{
-            height:80vh;width:100vw;
-            display:flex;
+            height:80vh;width:99.5vw;
+            display: flex;
+            flex-wrap: wrap;
             border:2px solid black;
-            position: relative;
-        }
-        #personals{
-            height:40vh;width:50vw;
-            display:flex;
-        }
-        #views{
-            position:absolute;
-            top:50%;
-            height:40vh;width:50vw;
-            display:flex;
-        }
-        #morals{
-            height:80vh;width:50vw;
-            display:flex;
         }
         .inside{
-            border:1px solid black;
+            height: 19.6vh;width: 99.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: justify;
+            border: 2px solid black;
         }
         .inside:hover{
-            background-color: whitesmoke
+            animation:box 2s ease infinite alternate;
+            background-color: salmon;
+        }
+        @keyframes box {
+            from{height:19.6vh;}
+            to{height:30vh;}
         }
     </style>
 </head>
@@ -53,14 +48,27 @@
     </header>
     <div id="content">
         <div id="personals" class="inside">
-            <h2>Personals</h2>
-
+            <h2>
+                Personals:<br>
+                Paradoxical- Embracing contradictions to reveal deeper truths.<br>
+                Idealist- Pursuing lofty ideals despite practical challenges.
+            </h2>
         </div>
         <div id="views" class="inside">
-            <h2>Views</h2>
+            <h2>
+                Views:<br>
+                Spoon feeding in the long run teaches us nothing but the shape of the spoon.<br>
+                Live as if you were to die tommoroow ,learn as if you were to live forever.
+            </h2>
         </div>
         <div id="morals" class="inside">
-            <h2>Morals</h2>
+            <h2>
+                Morals:<br>
+                Better to fail at doing the right thing than to succeed doing th wrong thing.
+            </h2>
+        </div>
+        <div id="anu" class="inside">
+
         </div>
     </div>
     <footer>
